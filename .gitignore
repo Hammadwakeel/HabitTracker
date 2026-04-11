@@ -1,0 +1,30 @@
+# Dependency directories
+node_modules/
+
+# Expo and Metro cache
+.expo/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Native build folders
+# (Since EAS builds these in the cloud, you don't need them in Git unless you manually edit Java/Swift)
+android/
+ios/
+
+# Build artifacts (Never upload giant app files)
+*.apk
+*.aab
+*.ipa
+*.keystore
+*.jks
+*.pem
+
+# Environment Variables (Keep secrets safe!)
+.env
+.env.local
+
+# OS generated files
+.DS_Store
+Thumbs.db
