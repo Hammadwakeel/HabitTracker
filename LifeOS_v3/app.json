@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Life OS",
+    "slug": "life-os",
+    "version": "3.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#0D0F14"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.hammad.lifeos"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0D0F14"
+      },
+      "package": "com.hammad.lifeos"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "color": "#6C63FF"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "eba64a32-4bc5-46ae-82fe-6b383ddea2de"
+      }
+    }
+  }
+}

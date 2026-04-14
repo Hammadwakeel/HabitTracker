@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "Hammad's Life Tracker",
+    "slug": "habit-tracker-v2",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": { "backgroundColor": "#0D0F14" },
+    "ios": { "supportsTablet": false, "bundleIdentifier": "com.hammad.lifetracker" },
+    "android": { "adaptiveIcon": { "backgroundColor": "#0D0F14" }, "package": "com.hammad.lifetracker" },
+    "plugins": [["expo-notifications", { "color": "#6C63FF" }]]
+  }
+}

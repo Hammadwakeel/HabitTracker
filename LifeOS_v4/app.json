@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Life OS",
+    "slug": "life-os",
+    "version": "6.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#0D0F14",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.yourname.lifeos",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Used to get accurate prayer times for your location.",
+        "NSPhotoLibraryUsageDescription": "Used to set your profile picture.",
+        "NSCameraUsageDescription": "Used to take your profile picture."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0D0F14"
+      },
+      "package": "com.yourname.lifeos",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "CAMERA"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        { "color": "#6C63FF" }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Allow Life OS to use your location for accurate prayer times."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow Life OS to access your photos to set a profile picture."
+        }
+      ]
+    ]
+  }
+}
